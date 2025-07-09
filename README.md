@@ -16,31 +16,14 @@ It uses OpenCV’s deep neural network (DNN) module along with pretrained `.caff
 - OpenCV (with `cv2.dnn`)
 - Pretrained Caffe models for age & gender
 - TensorFlow face detection model
-
----
-
-## 📂 Project Structure
-
-Gender-and-Age-Detection/
-│
-├── detect.py # Main script
-├── age_deploy.prototxt # Age model architecture
-├── age_net.caffemodel # Age model weights
-├── gender_deploy.prototxt # Gender model architecture
-├── gender_net.caffemodel # Gender model weights
-├── opencv_face_detector.pbtxt # Face detector config
-├── opencv_face_detector_uint8.pb # Face detector model
-├── girl1.jpg / man1.jpg # Sample test images
-└── README.md
-
+--------------------------------------------------------------------------------
 ## 📦 Requirements
 
 Install the required libraries:
 
-```bash
 pip install opencv-python argparse
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ### ✅ Next Steps (Optional):
 - Add **requirements.txt** or a `virtualenv`
 - Include **more sample images**
