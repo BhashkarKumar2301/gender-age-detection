@@ -1,4 +1,23 @@
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# IDE folders
 .idea/
-*.DS_Store
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (optional)
+*.caffemodel
+*.pb
